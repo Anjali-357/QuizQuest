@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.main-container {
+	min-height: calc(100vh - 136px);
+	
+}
+
+table {
+    width: 80%; /* Decrease the width of the table to 80% of its parent container */
+    margin: 0 auto; /* Center align the table horizontally */
+    text-align: center;
+}
+
+
+tr {
+    border: 17px solid white;
+    background-color: rgb(222, 89, 89) !important;
+}
+
+tr td:nth-child(2) {
+    background-color: rgb(250, 175, 175); /* Change the background color of the second td in tr to light green */
+}
+
+th, td {
+	padding: 10px;
+	
+}
+
+footer {
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+}
+
+.navbar {
+	background-color: rgb(222, 89, 89) !important; /* Change background color of the navbar to light pink */
+}

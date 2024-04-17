@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+body {
+	width: 100%;
+	overflow-x: hidden;
+	
+}
+
+.main-container {
+	min-height: calc(100vh - 136px);
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas: "image-box"
+						"text-box";
+	row-gap: 50px;
+	column-gap: 50px;
+	
+}
+
+@media screen and (min-width:850px) {
+	.main-container {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr;
+		grid-template-areas: "image-box text-box";
+	}
+}
+
+.image-box {
+	grid-area: image-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.image-box img {
+	width: 100%;
+	max-width: 450px;
+}
+
+.text-box {
+	grid-area: text-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(250, 202, 202) !important;
+	border-radius: 10px; /* Add border-radius property to make the corners round */
+}
+
+
+.card {
+	width: 70%;
+	background-color: rgb(222, 89, 89) !important;
+	border-radius: 10px;
+}
+
+.card p {
+	color: #f7f7f7;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.card input {
+	margin-bottom: 40px;
+	height: 35px;
+	background-color: rgb(255, 255, 255); /* Change background color of the textbox to light pink */
+}
+
+.warning {
+	position: relative;
+	margin-top: -37px;
+	background-color: rgb(247, 143, 143) !important;
+}
+
+footer {
+	height: 70px;
+	text-align: center;
+	line-height: 80px;
+	background-color: rgb(255, 122, 142) !important; /* Change background color of the footer to light pink */
+}
+
+.navbar {
+	background-color: rgb(222, 89, 89) !important; /* Change background color of the navbar to light pink */
+}

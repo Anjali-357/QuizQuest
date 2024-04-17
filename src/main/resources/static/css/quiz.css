@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	overflow-x: hidden;
+	
+}
+
+h1 {
+	font-size: 22px;
+	text-align: center;
+	padding: 15px 25px;
+	border-radius: 4px;
+	background-color: rgb(255, 255, 255) !important;
+	
+}
+
+.ques-box {
+	width: 100%;
+	max-width: 800px;
+	padding: 15px 25px;
+	margin: 50px auto 0 auto;
+	border-radius: 4px;
+	background-color: rgb(255, 149, 149) !important;
+}
+
+.option {
+	display: flex;
+	flex-direction: row;
+
+	gap: 10px; /* Add gap property to add a gap between the options */
+}
+
+
+.title {
+	font-size: 18px;
+	font-weight: 500;
+	color: rgba(92, 29, 29, 0.705);
+}
+
+.option p {
+	margin-left: 15px;
+	position: relative;
+	margin-top: -6px;
+	color: rgb(255, 255, 255);
+	
+}
+
+footer {
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	background-color: rgb(255, 122, 142) !important;
+}
+
+
+.navbar {
+	background-color: rgb(222, 89, 89) !important; /* Change background color of the navbar to light pink */
+}

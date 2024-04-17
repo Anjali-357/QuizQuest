@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.main-container {
+	min-height: calc(100vh - 136px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: rgb(250, 138, 155) !important;
+	
+
+}
+
+.card {
+	width: 100%;
+	max-width: 800px;
+	margin-top:85px;
+	background-color: rgb(248, 133, 133) !important;
+	border-radius: 10px;
+}
+
+img {
+	width: 50%;
+	max-width: 130px;
+	position: unset;
+	display: block;
+	margin: -180px auto 70px auto;
+}
+
+.card button {
+	width: 45%;
+}
+
+footer {
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	background-color: rgb(255, 122, 142) !important;
+}
+
+
+.navbar {
+	background-color: rgb(222, 89, 89) !important; /* Change background color of the navbar to light pink */
+}
